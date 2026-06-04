@@ -14,6 +14,12 @@ This is a multi-line comment.
 It can be more than one line.
 Here I would describe the function or module
 """
+single_quoted = 'Hello, world!'
+double_quoted = "Hello, world!"
+triple_quoted = '''Hello,
+world'''
+
+print(single_quoted, double_quoted, triple_quoted)
 
 x = 10 # I can also add comments in-line.
 y = 20 # Another in-line comment.
